@@ -3,19 +3,19 @@ version: "3.8"
 services:
     database:
         image: postgres
-        container_name: database_register_people
+        container_name: database_register_user
         restart: always
         ports:
             - 5432:5432
         environment:
-            - POSTGRES_USER=register_people
-            - POSTGRES_PASSWORD=register_people
-            - POSTGRES_DB=register_people
+            - POSTGRES_USER=register_user
+            - POSTGRES_PASSWORD=register_user
+            - POSTGRES_DB=register_user
         volumes:
             - pgdata:/data/postgres
     app:
         build: .
-        container_name: app_register_people
+        container_name: app_register_user
         ports: 
             - 3333:3333
             - 9229:9229

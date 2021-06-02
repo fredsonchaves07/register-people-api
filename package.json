@@ -1,8 +1,7 @@
 {
-  "name": "register-people-api",
+  "name": "register-user-api",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/fredsonchaves07/register-people-api.git",
+  "repository": "https://github.com/fredsonchaves07/register-user-api.git",
   "author": "<fredsonchaves07@gmail.com>",
   "license": "MIT",
   "scripts": {
